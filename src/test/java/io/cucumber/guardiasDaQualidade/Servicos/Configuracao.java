@@ -3,11 +3,6 @@ package io.cucumber.guardiasDaQualidade.Servicos;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-/*
-Configuração do Chromedriver
-Instanciando WebDriver browser 
-*/
-
 public class Configuracao {
   
     public static WebDriver browser; //Objeto browser da classe WebDriver
