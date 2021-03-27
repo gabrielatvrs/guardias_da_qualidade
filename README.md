@@ -1,9 +1,9 @@
 ## Automação de testes com Selenium e Cucumber 
 
-Utilizando o site da *Gama Academy* 
+Utilizando o site da *Accenture* 
 
-- 1 caso de testes
-- 2 cenários
+- 7 casos de testes
+- 7 cenários
 
 #### Tecnologias utilizadas
 
