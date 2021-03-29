@@ -3,9 +3,11 @@
 Funcionalidade: Acessar o site da Accenture a mostrar a lista de servicos
   Projeto final da Accademia Accenture - QA
 
+Contexto: Acessar o menu de servicos no site da Accenture
+  Dado que estou no site da accenture
+  E clico no menu servicos
+
 Cenario: Listar servicos da Accenture
-  Dado que eu estou no site da Accenture
-  E clico no menu de servicos
   Entao devo ver os servicos
     | Accenture Strategy |
     | Application Services |
