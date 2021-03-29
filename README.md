@@ -45,77 +45,77 @@ Java Extension Pack | Cucumber (Gherkin) | Cuke Step Definition Generator | Lang
 
 ### Caso de teste 1: Acessar o site da accenture e aceitar os cookies do LGPD
 
-Cenário: Aceitar o cookie LGPD
-dado que eu estou no site da accenture
-e aceito os termos LGPD
-Então deve fechar a caixa de informação
+Cenário: Aceitar o cookie LGPD<br>
+    Dado que eu estou no site da accenture<br>
+    E aceito os termos LGPD<br>
+    Então deve fechar a caixa de informação<br><br>
 
-Cenário: Configurações do cookie
-dado que eu estou no site da accenture
-e aceito os termos LGPD
-e clico em configurações de cookie
-Então devo ver o item de "sua privacidade"
-E devo ver "Cookies estritamente necessárias"
-e devo ver "Cookies Analíticos de Primeira Parte"
-e devo ver "Cookies de Desempenho e Cookies Funcionais"
-e devo ver "Cookies de Publicidade e Redes Sociais"
+Cenário: Configurações do cookie<br>
+    Dado que eu estou no site da accenture<br>
+    E aceito os termos LGPD<br>
+    E clico em configurações de cookie<br>
+    Então devo ver o item de "sua privacidade"<br>
+    E devo ver "Cookies estritamente necessárias"<br>
+    E devo ver "Cookies Analíticos de Primeira Parte"<br>
+    E devo ver "Cookies de Desempenho e Cookies Funcionais"<br>
+    E devo ver "Cookies de Publicidade e Redes Sociais"<br>
 
 ### Caso de teste 2: Acessar o site da accenture a mostrar a lista de serviços
 
-Cenário: listar serviços da Accenture
-dado que eu estou no site da accenture
-e clico no menu serviços
-Então devo ver os serviços abaixo
-| Accenture Strategy |
-| Application Services |
-| Artificial Intelligence |
-| Automation |
-| Business Process Services |
-| Change Management |
-| Cloud |
-| Customer Experience |
-| Data & Analytics |
-| Ecosystem Partners |
-| Finance Consulting |
-| Industry X |
-| Infrastructure |
-| Marketing |
-| Mergers & Acquisitions (M&A) |
-| Operating Models |
-| Security |
-| Supply Chain Management |
-| Sustainability |
-| Technology Consulting |
-| Technology Innovation |
-| Zero Based Budgeting (ZBB) |
+Cenário: Listar serviços da Accenture<br>
+    Dado que eu estou no site da accenture<br>
+    E clico no menu serviços<br>
+    Então devo ver os serviços abaixo<br>
+    | Accenture Strategy |<br>
+    | Application Services |<br>
+    | Artificial Intelligence |<br>
+    | Automation |<br>
+    | Business Process Services |<br>
+    | Change Management |<br>
+    | Cloud |<br>
+    | Customer Experience |<br>
+    | Data & Analytics |<br>
+    | Ecosystem Partners |<br>
+    | Finance Consulting |<br>
+    | Industry X |<br>
+    | Infrastructure |<br>
+    | Marketing |<br>
+    | Mergers & Acquisitions (M&A) |<br>
+    | Operating Models |<br>
+    | Security |<br>
+    | Supply Chain Management |<br>
+    | Sustainability |<br>
+    | Technology Consulting |<br>
+    | Technology Innovation |<br>
+    | Zero Based Budgeting (ZBB) |<br>
 
-Cenário: Clicar no serviço cloud
-dado que eu estou no site da accenture
-e clico no menu serviços
-e clico no item do menu cloud
-Então devo encontrar o título "Serviços de Cloud"
+Cenário: Clicar no serviço cloud<br>
+    Dado que eu estou no site da accenture<br>
+    E clico no menu serviços<br>
+    E clico no item do menu cloud<br>
+    Então devo encontrar o título "Serviços de Cloud"<br>
 
 ### Caso de teste 3: Acessar a lista de carreiras da accenture
 
-Cenário: Acessar o item de vagas de tecnologia
-dado que eu estou no site da accenture
-e clico no menu carreiras
-e clico no item do menu vagas em tecnologia
-Então devo ver o destaque em "Carreiras em Tecnologia"
+Cenário: Acessar o item de vagas de tecnologia<br>
+    Dado que eu estou no site da accenture<br>
+    E clico no menu carreiras<br>
+    E clico no item do menu vagas em tecnologia<br>
+    Então devo ver o destaque em "Carreiras em Tecnologia"<br>
 
-Cenário: Procurando uma vaga
-dado que eu estou no site da accenture
-e digito no campo de busca "desenvolvedor"
-e clico no botão procurar
-Então devo encontrar vagas para programadores
+Cenário: Procurando uma vaga<br>
+    Dado que eu estou no site da accenture<br>
+    E digito no campo de busca "desenvolvedor"<br>
+    E clico no botão procurar<br>
+    Então devo encontrar vagas para programadores<br>
 
 ### Caso de teste 4: Sobre a accenture
 
-Cenário: Ver as características da accenture
-dado que eu estou no site da accenture
-e clico no menu sobre a accenture
-e clico no item do menu sobre a accenture
-Então devo ver o destaque em "Nosso propósito"
+Cenário: Ver as características da accenture<br>
+    Dado que eu estou no site da accenture<br>
+    E clico no menu sobre a accenture<br>
+    E clico no item do menu sobre a accenture<br>
+    Então devo ver o destaque em "Nosso propósito"<br>
 
 ### Como utilizar:
 - Pré requisitos:
