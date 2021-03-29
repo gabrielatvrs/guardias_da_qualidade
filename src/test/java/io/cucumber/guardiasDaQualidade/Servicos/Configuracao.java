@@ -1,4 +1,4 @@
-package io.cucumber.guardiasDaQualidade.Servicos;
+package io.cucumber.guardiasDaQualidade.servicos;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -25,7 +25,7 @@ public class Configuracao {
     browser = null; // volta o navegador para a posição null
   }
   /*
-   * Sempre que for usar o browser, ele está dentro da classe Configuração, então
-   * coloca ponto e chama as ações que estão nele: .browser .fechar .abrir
+   * Sempre que for usar o browser, ele está dentro da classe Configuração
+   * Só precisa extender a classe e para ter acesso as propriedades e funções
    */
 }

@@ -1,10 +1,13 @@
 package io.cucumber.guardiasDaQualidade.steps;
 
-import org.openqa.selenium.WebElement;
 import static org.junit.Assert.assertEquals;
+
 import org.openqa.selenium.By;
-import io.cucumber.java.pt.*;
-import io.cucumber.guardiasDaQualidade.Servicos.Configuracao;
+import org.openqa.selenium.WebElement;
+
+import io.cucumber.guardiasDaQualidade.servicos.Configuracao;
+import io.cucumber.java.pt.Dado;
+import io.cucumber.java.pt.Entao;
 
 public class CasoDeTeste4 extends Configuracao {
 
