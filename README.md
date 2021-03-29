@@ -1,21 +1,43 @@
-## Automação de testes com Selenium e Cucumber 
+##Time: Guardiãs da Qualidade
+
+Integrantes: <br>
+<ul>
+
+    <li>Amanda Barral</li>
+    https://github.com/AmandaBarral
+    <li>Eliete Miranda</li>
+    https://github.com/elietemiranda
+    <li>Gabriela Tavares</li>
+    https://github.com/gasatabi
+    <li>Jacqueline Carriel</li>
+    https://github.com/midorinoo
+    <li>Jéssika Gomes</li>
+    https://github.com/jessikagomes
+    <li>Mariana Caetano</li>
+    https://github.com/Mariana-Caetano
+    <li>Renata Moreira</li>
+    https://github.com/renatamoreir4
+
+</ul>
+
+## Desafio: Automação de testes utilizando Selenium e Cucumber 
 
 Utilizando o site da *Accenture* 
 
 - 4 casos de testes;
 - 7 cenários
 
-#### Tecnologias utilizadas
+#### Tecnologias utilizadas:
 
-**Selenium**: interagir com os elementos web da página
+**Selenium**: Framework responsável por fazer a integração do código Java com a linguagem Gherkin(Cucumber), abrindo o browser e realizando os testes de comportamento
 
 **Junit**: testar o software em Java
 
-**Cucumber**: escrever os teste em linguagem mais humana e BDD
+**Cucumber**: Framework responsável por traduzir uma linguagem humana em código Java
 
-**Java**: linguagem de programação
+**Java**: Linguagem de programação utilizada
 
-**Maven**: para gerenciamento de dependências
+**Maven**: Gerenciador das dependências para o Java
 
 **Visual Studio Code**: IDE para implementação do projeto 
 
@@ -97,5 +119,25 @@ e clico no menu sobre a accenture
 e clico no item do menu sobre a accenture
 Então devo ver o destaque em "Nosso propósito"
 
+## Como utilizar:
+
+- Clone do projeto: 
+```bash
+git clone https://github.com/gasatabi/GuardiasDaQualidade.git
+```
+- Entrando na pasta do projeto: 
+```bash
+cd GuardiasDaQualidade-master
+```
+
+- Limpando e validando Maven (Unix):
+```bash
+./mvnw clean
+```
+
+- Limpando e validando Maven (Windows):
+```bash
+mvnw.cmd clean
+```
 
 
