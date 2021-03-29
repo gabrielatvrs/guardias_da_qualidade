@@ -1,21 +1,21 @@
-##Time: Guardiãs da Qualidade
+## Time: Guardiãs da Qualidade
 
 Integrantes: <br>
 <ul>
 
-    <li>Amanda Barral</li>
+    <li> Amanda Barral </li>
     https://github.com/AmandaBarral
-    <li>Eliete Miranda</li>
+    <li> Eliete Miranda </li>
     https://github.com/elietemiranda
-    <li>Gabriela Tavares</li>
+    <li> Gabriela Tavares </li>
     https://github.com/gasatabi
-    <li>Jacqueline Carriel</li>
+    <li> Jacqueline Carriel </li>
     https://github.com/midorinoo
-    <li>Jéssika Gomes</li>
+    <li> Jéssika Gomes </li>
     https://github.com/jessikagomes
-    <li>Mariana Caetano</li>
+    <li> Mariana Caetano </li>
     https://github.com/Mariana-Caetano
-    <li>Renata Moreira</li>
+    <li> Renata Moreira </li>
     https://github.com/renatamoreir4
 
 </ul>
