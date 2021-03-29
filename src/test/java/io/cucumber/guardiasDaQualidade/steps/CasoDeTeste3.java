@@ -63,5 +63,6 @@ public class CasoDeTeste3 extends Configuracao {
     @Entao("devo encontrar vagas para programadores")
     public void devo_encontrar_vagas_para_programadores() {
         WebElement desenvolvedor = browser.findElement(By.cssSelector(".results-for-keyword"));
+        fechar();
     }
 }
