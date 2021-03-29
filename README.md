@@ -2,7 +2,6 @@
 
 Integrantes: <br>
 <ul>
-
     <li> Amanda Barral </li>
     https://github.com/AmandaBarral
     <li> Eliete Miranda </li>
@@ -17,7 +16,6 @@ Integrantes: <br>
     https://github.com/Mariana-Caetano
     <li> Renata Moreira </li>
     https://github.com/renatamoreir4
-
 </ul>
 
 ## Desafio: Automação de testes utilizando Selenium e Cucumber 
