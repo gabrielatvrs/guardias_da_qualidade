@@ -168,9 +168,11 @@ test.bat
 ```
 
 ## Estrutura de arquivos
+
 <pre>
     driver <br>
-        |-- chromedriver<br> -- Arquivo Selenium WebDriver. Substitua este arquivo com a versão da sua máquina.
+        |-- chromedriver<br> -- Arquivo Selenium WebDriver. 
+        Substitua este arquivo com a versão da sua máquina.
     mvwn<br>
     mvnw.cmd
     pom.xml
@@ -180,18 +182,19 @@ test.bat
         |  |  |-- io
         |  |  |  |-- cucumber
         |  |  |  |  |-- guardiasDaQualidade
-        |  |  |  |  |   |-- contexts
-        |  |  |  |  |   |   |-- ContextoBasico.java -- Arquivo que especifica o contexto comum aos casos de testes
-         |  |  |  |  |   |-- servicos
-        |  |  |  |  |   |   |-- Configuracao.java -- Arquivo que especifica as ações do browser
+        |  |  |  |  |  |-- contexts
+        |  |  |  |  |  |  |-- ContextoBasico.java -- Arquivo que especifica o contexto comum aos casos de testes
 
-        |  |  |  |  |   |-- steps
-        |  |  |  |  |   |   |-- CasoDeTeste1.java
-        |  |  |  |  |   |   |-- CasoDeTeste2.java
-        |  |  |  |  |   |   |-- CasoDeTeste3.java
-        |  |  |  |  |   |   |-- CasoDeTeste4.java
+        |  |  |  |  |  |-- servicos
+        |  |  |  |  |  |  |-- Configuracao.java -- Arquivo que especifica as ações do browser
 
-    |  |  |  |  |  |-- RunCucumberTest.java -- Arquivo que configura a inicialização do Java test
+        |  |  |  |  |  |-- steps
+        |  |  |  |  |  |  |-- CasoDeTeste1.java
+        |  |  |  |  |  |  |-- CasoDeTeste2.java
+        |  |  |  |  |  |  |-- CasoDeTeste3.java
+        |  |  |  |  |  |  |-- CasoDeTeste4.java
+
+        |  |  |  |  |  |-- RunCucumberTest.java -- Arquivo que configura a inicialização do Java test
 
     |  |-- resources
     |  |  |-- io
@@ -199,13 +202,6 @@ test.bat
     |  |  |  |  |-- guardiasDaQualidade
     |  |  |  |  |  |-- features -- Gherkin com os casos de teste de acordo com a especificação do cliente
 
-  test.bat -- Arquivo para rodar teste no Windows
+    test.bat -- Arquivo para rodar teste no Windows
 
-  test.sh -- Arquivo para rodar teste no Unix
-
-
-
-
-
-
-
+    test.sh -- Arquivo para rodar teste no Unix
