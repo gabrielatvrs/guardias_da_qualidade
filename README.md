@@ -22,7 +22,7 @@ Integrantes: <br>
 
 Utilizando o site da *Accenture* 
 
-- 4 casos de testes;
+- 4 casos de testes
 - 7 cenários
 
 #### Tecnologias utilizadas:
@@ -43,7 +43,7 @@ Utilizando o site da *Accenture*
 
 Java Extension Pack | Cucumber (Gherkin) | Cuke Step Definition Generator | Language support for Java
 
-## Caso de teste 1: Acessar o site da accenture e aceitar os cookies do LGPD
+### Caso de teste 1: Acessar o site da accenture e aceitar os cookies do LGPD
 
 Cenário: Aceitar o cookie LGPD
 dado que eu estou no site da accenture
@@ -60,7 +60,7 @@ e devo ver "Cookies Analíticos de Primeira Parte"
 e devo ver "Cookies de Desempenho e Cookies Funcionais"
 e devo ver "Cookies de Publicidade e Redes Sociais"
 
-## Caso de teste 2: Acessar o site da accenture a mostrar a lista de serviços
+### Caso de teste 2: Acessar o site da accenture a mostrar a lista de serviços
 
 Cenário: listar serviços da Accenture
 dado que eu estou no site da accenture
@@ -95,7 +95,7 @@ e clico no menu serviços
 e clico no item do menu cloud
 Então devo encontrar o título "Serviços de Cloud"
 
-## Caso de teste 3: Acessar a lista de carreiras da accenture
+### Caso de teste 3: Acessar a lista de carreiras da accenture
 
 Cenário: Acessar o item de vagas de tecnologia
 dado que eu estou no site da accenture
@@ -109,7 +109,7 @@ e digito no campo de busca "desenvolvedor"
 e clico no botão procurar
 Então devo encontrar vagas para programadores
 
-## Caso de teste 4: Sobre a accenture
+### Caso de teste 4: Sobre a accenture
 
 Cenário: Ver as características da accenture
 dado que eu estou no site da accenture
@@ -117,7 +117,7 @@ e clico no menu sobre a accenture
 e clico no item do menu sobre a accenture
 Então devo ver o destaque em "Nosso propósito"
 
-## Como utilizar:
+### Como utilizar:
 
 - Clone do projeto: 
 ```bash
