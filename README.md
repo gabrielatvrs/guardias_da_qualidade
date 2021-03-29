@@ -27,7 +27,7 @@ Utilizando o site da *Accenture*
 
 #### Tecnologias utilizadas:
 
-**Selenium**: Framework responsável por fazer a integração do código Java com a linguagem Gherkin(Cucumber), abrindo o browser e realizando os testes de comportamento
+**Selenium**: Framework responsável por fazer a integração do código Java com a linguagem Gherkin (Cucumber), abrindo o browser e realizando os testes de comportamento
 
 **Junit**: testar o software em Java
 
@@ -118,15 +118,34 @@ e clico no item do menu sobre a accenture
 Então devo ver o destaque em "Nosso propósito"
 
 ### Como utilizar:
+- Pré requisitos:
+
+Instalar o Java: https://www.java.com/pt-BR/download/ie_manual.jsp?locale=pt_BR
+
+Intalar o jdk: https://www.oracle.com/br/java/technologies/javase/javase-jdk8-downloads.html
+
 
 - Clone do projeto: 
 ```bash
 git clone https://github.com/gasatabi/GuardiasDaQualidade.git
 ```
+
 - Entrando na pasta do projeto: 
 ```bash
 cd GuardiasDaQualidade-master
 ```
+
+- Configurando Selenium no computador:<br>
+Fazer o download do Chrome Web Driver e adiconar o arquivo (descompactado) dentro da pasta "driver" na raíz do projeto<br>https://chromedriver.chromium.org/downloads<br>
+<br>Exemplo:<br>
+
+<ul>
+cd driver
+curl https://chromedriver.storage.googleapis.com/89.0.4389.23/chromedriver_linux64.zip
+unzip chromedriver_linux64.zip
+rm -rf chromedriver_linux64.zip
+cd ../driver
+</ul>
 
 - Limpando e validando Maven (Unix):
 ```bash
@@ -137,5 +156,56 @@ cd GuardiasDaQualidade-master
 ```bash
 mvnw.cmd clean
 ```
+
+- Executando teste no Unix:
+```bash
+./test.sh
+```
+
+- Executando teste no Windows:
+```bash
+test.bat
+```
+
+## Estrutura de arquivos
+<pre>
+    driver <br>
+        |-- chromedriver<br> -- Arquivo Selenium WebDriver. Substitua este arquivo com a versão da sua máquina.
+    mvwn<br>
+    mvnw.cmd
+    pom.xml
+    src
+        |-- test
+        |  |-- java
+        |  |  |-- io
+        |  |  |  |-- cucumber
+        |  |  |  |  |-- guardiasDaQualidade
+        |  |  |  |  |   |-- contexts
+        |  |  |  |  |   |   |-- ContextoBasico.java -- Arquivo que especifica o contexto comum aos casos de testes
+         |  |  |  |  |   |-- servicos
+        |  |  |  |  |   |   |-- Configuracao.java -- Arquivo que especifica as ações do browser
+
+        |  |  |  |  |   |-- steps
+        |  |  |  |  |   |   |-- CasoDeTeste1.java
+        |  |  |  |  |   |   |-- CasoDeTeste2.java
+        |  |  |  |  |   |   |-- CasoDeTeste3.java
+        |  |  |  |  |   |   |-- CasoDeTeste4.java
+
+    |  |  |  |  |  |-- RunCucumberTest.java -- Arquivo que configura a inicialização do Java test
+
+    |  |-- resources
+    |  |  |-- io
+    |  |  |  |-- cucumber
+    |  |  |  |  |-- guardiasDaQualidade
+    |  |  |  |  |  |-- features -- Gherkin com os casos de teste de acordo com a especificação do cliente
+
+  test.bat -- Arquivo para rodar teste no Windows
+
+  test.sh -- Arquivo para rodar teste no Unix
+
+
+
+
+
 
 
