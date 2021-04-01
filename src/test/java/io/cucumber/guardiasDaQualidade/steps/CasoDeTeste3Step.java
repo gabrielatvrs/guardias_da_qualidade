@@ -1,17 +1,15 @@
 package io.cucumber.guardiasDaQualidade.steps;
 
 import static org.junit.Assert.assertEquals;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
 import io.cucumber.guardiasDaQualidade.servicos.Configuracao;
 import io.cucumber.java.pt.Dado;
 import io.cucumber.java.pt.Entao;
 
-public class CasoDeTeste3 extends Configuracao {
+public class CasoDeTeste3Step extends Configuracao {
 
     @Dado("fecho a autorizacao de cookie")
     public void fecho_a_autorizacao_de_cookie() {
@@ -66,3 +64,4 @@ public class CasoDeTeste3 extends Configuracao {
         fechar();
     }
 }
+

@@ -2,19 +2,16 @@ package io.cucumber.guardiasDaQualidade.steps;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotEquals;
-
 import java.util.List;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
 import io.cucumber.guardiasDaQualidade.servicos.Configuracao;
 import io.cucumber.java.pt.Dado;
 import io.cucumber.java.pt.Entao;
 
-public class CasoDeTeste2 extends Configuracao {
+public class CasoDeTeste2Step extends Configuracao {
 
     @Entao("devo ver os servicos")
     public void devo_ver_os_servicos(List<String> servicos) {

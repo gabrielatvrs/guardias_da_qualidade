@@ -1,15 +1,13 @@
 package io.cucumber.guardiasDaQualidade.steps;
 
 import static org.junit.Assert.assertEquals;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-
 import io.cucumber.guardiasDaQualidade.servicos.Configuracao;
 import io.cucumber.java.pt.Dado;
 import io.cucumber.java.pt.Entao;
 
-public class CasoDeTeste4 extends Configuracao {
+public class CasoDeTeste4Step extends Configuracao {
 
     @Dado("clico no menu sobre a accenture")
     public void clico_no_menu_sobre_a_accenture() {

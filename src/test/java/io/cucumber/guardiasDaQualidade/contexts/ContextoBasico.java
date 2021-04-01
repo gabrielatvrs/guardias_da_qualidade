@@ -2,7 +2,6 @@ package io.cucumber.guardiasDaQualidade.contexts;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-
 import io.cucumber.guardiasDaQualidade.servicos.Configuracao;
 import io.cucumber.java.pt.Dado;
 
